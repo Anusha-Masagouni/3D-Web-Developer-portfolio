@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I am <span className="text-[#915eff]">Anusha Masagouni</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a MERN stack developer <br className="sm:block hidden" />{" "}
+            I develop user interfaces and web applications using the MERN stack. <br className="sm:block hidden" />{" "}
           </p>
         </div>
       </div>
