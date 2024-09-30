@@ -5,7 +5,7 @@ import { logo, menu, close } from "../assets";
 import { styles } from "../styles";
 import { useState } from "react";
 import { li } from "framer-motion/client";
-import { navLinks } from "../contants";
+import { navLinks } from "../constants";
 const Navbar = () => {
   const [active, setActive] = useState(" ");
   const [toggle, setToggle] = useState(false); //for toggle
