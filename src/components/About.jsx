@@ -3,7 +3,7 @@
 /* eslint-disable no-undef */
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../contants";
+import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
 import { SectionWrapper } from "../hoc";

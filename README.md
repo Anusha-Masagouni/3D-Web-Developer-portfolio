@@ -2,7 +2,10 @@
 
 # Libraries
 - https://www.npmjs.com/package/@react-three/fiber
-- ## Lights - https://r3f.docs.pmnd.rs/getting-started/your-first-scene#adding-lights
+- https://www.npmjs.com/package/framer-motion
+- Lights - https://r3f.docs.pmnd.rs/getting-started/your-first-scene#adding-lights
+- Experience - https://www.npmjs.com/package/react-vertical-timeline-component
+- 
 
 
 ## 3D Models
