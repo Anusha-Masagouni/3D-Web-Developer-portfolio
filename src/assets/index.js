@@ -25,10 +25,8 @@ import dci from "./company/dci.png";
 import marolix from "./company/marolix.png"
 import wipro from "./company/wipro.svg"
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import recipeapp from "./recipe_app.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -55,7 +53,6 @@ export {
   dci,
   marolix,
   wipro,
-  carrent,
-  jobit,
-  tripguide,
+  recipeapp,
+  portfolio,
 };

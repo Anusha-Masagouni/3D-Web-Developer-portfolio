@@ -14,15 +14,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     dci,
     marolix,
     wipro,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    recipeapp,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -140,35 +137,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "loLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.rem ",
+      name: "loLorem ipsum",
+      designation: "loLorem ipsum",
+      company: "loLorem ipsum",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      "loLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.rem ",
+    name: "loLorem ipsum",
+    designation: "loLorem ipsum",
+    company: "loLorem ipsum",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "loLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.rem ",
+      name: "loLorem ipsum",
+      designation: "loLorem ipsum",
+      company: "loLorem ipsum",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Recipe App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Web Application that allows users to search and browse recipes using the spoonacular API. The app features a variety of components for displaying categories, Popular recipes, and Vegetarian options. Users can navigate between different pages for a smooth and engaging experience.",
       tags: [
         {
           name: "react",
@@ -183,13 +180,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: recipeapp,
+      source_code_link: "https://github.com/Anusha-Masagouni/recipe-app",
     },
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A 3D portfolio is an interactive and immersive way to showcase skills and projects. Users navigate through a dynamic 3D environment, exploring different sections like Overview, Work experience, technologies, and Projects. Represented by engaging 3D models and icons",
       tags: [
         {
           name: "react",
@@ -204,30 +201,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/Anusha-Masagouni/3D-Web-Developer-portfolio",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };
